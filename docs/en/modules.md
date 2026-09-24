@@ -4,7 +4,7 @@ BusNovaTech is composed of 6 modules covering everything from initial setup to i
 
 ---
 
-## Module 1.0 — Data Structure Configuration
+## Module 1.0: Data Structure Configuration
 
 **Goal:** Set up the system's initial environment and persist configuration to `config.json`.
 
@@ -32,7 +32,7 @@ BusNovaTech is composed of 6 modules covering everything from initial setup to i
 
 ---
 
-## Module 1.1 — Ticket Creation
+## Module 1.1: Ticket Creation
 
 **Goal:** Manage ticket creation with priority queues based on service type and bus.
 
@@ -71,7 +71,7 @@ IDs are generated automatically using the maximum existing ID across `tiquetes.j
 
 ---
 
-## Module 1.2 — Ticket Attendance
+## Module 1.2: Ticket Attendance
 
 **Goal:** Manage inspector attendance, ensuring correct billing, timestamp updates and persistent records in `atendidos.json`.
 
@@ -101,7 +101,7 @@ IDs are generated automatically using the maximum existing ID across `tiquetes.j
 
 ---
 
-## Module 1.3 — Queue Filling
+## Module 1.3: Queue Filling
 
 **Goal:** Implement automatic ticket-to-bus assignment based on specific rules, considering the current size of each bus's queue.
 
@@ -140,7 +140,7 @@ IDs are generated automatically using the maximum existing ID across `tiquetes.j
 
 ---
 
-## Module 1.4 — Complementary Services (Graphs)
+## Module 1.4: Complementary Services (Graphs)
 
 **Goal:** Implement a weighted directed graph to define routes between localities and calculate the shortest path.
 
@@ -175,7 +175,7 @@ IDs are generated automatically using the maximum existing ID across `tiquetes.j
 
 ---
 
-## Module 1.5 — BCCR Exchange Rate Query
+## Module 1.5: BCCR Exchange Rate Query
 
 **Goal:** Integrate an online exchange rate query from the Costa Rica Central Bank (BCCR) Web Service and use it in billing calculations.
 

@@ -4,7 +4,7 @@
 
 ## Second Submission
 
-### Module 1.2 — Fixes
+### Module 1.2: Fixes
 
 - Fixed ticket persistence in `tiquetes.json`
 - Correct billing calculation by service type
@@ -14,22 +14,22 @@
 - Automatic persistence after each operation
 - Improved queue and history display via JOptionPane
 
-### Module 1.3 — Fixes
+### Module 1.3: Fixes
 
 - Full integration with modules 1.1 and 1.2
-- Fixed duplicate entries in `colas.txt` — now updates counts instead of appending new entries
+- Fixed duplicate entries in `colas.txt`: now updates counts instead of appending new entries
 - Automatic ticket-to-bus assignment on ticket creation
 - Automatic queue update when attending tickets
 - Correct persistence and loading from `colas.txt`
 - P/D/N code compatibility with full type names in assignment logic
 
-### Module 1.4 — New
+### Module 1.4: New
 
 - `GrafoRutas`: array-based weighted directed graph with Dijkstra's algorithm
 - `GestionGrafo`: menu, persistence to `grafo.json` and integration in main menu
 - Support classes: `Localidad`, `VerticeGrafo`, `AristaGrafo`
 
-### Module 1.5 — New
+### Module 1.5: New
 
 - Integration with the Costa Rica Central Bank Web Service
 - Online exchange rate query and automatic amount conversion to colones
